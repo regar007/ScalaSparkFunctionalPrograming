@@ -1,4 +1,4 @@
-# Functional Programing in SCALA
+# Functional Programing in Scala
 
 ## Week 1
 > squre root function in scala
