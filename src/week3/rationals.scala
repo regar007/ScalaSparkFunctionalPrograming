@@ -22,6 +22,6 @@ object rationals extends App{
   val sub = x.sub(y)
   val less = x.less(y)
   val max = x.max(y)
-  
-  println("sub : "+ sub+ ": "+ less+ ": "+ max)
+   
+  println("sub : "+ sub+ ": "+ less+ ", max :"+ max)
 }
