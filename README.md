@@ -9,6 +9,9 @@
     
 ## week 3
 > Higer order functions: passing fn as argument
+
 > Currying : passing and returning fn as argument
+
 > Fixed point : finding a fixed points of a function. example like squre root and factorial
+
 > Classes in scala and methods and exception handling
