@@ -24,6 +24,23 @@ class Rational(x: Int, y: Int) {
      def neg : Rational = new Rational(- numr, deno)
      
      def sub(that: Rational): Rational = add(that.neg)
+
+     //other way with defining with operator symbols
+     def < (that: Rational) = numr * that.deno < that.numr * deno
      
+     def _max (that: Rational) = if(this < that) that else this
+     
+     def + (that: Rational): Rational = {
+       new Rational(
+           numr * that.deno + that.numr * deno, 
+           deno * that.deno 
+       )
+     }
+     
+     def unary_- : Rational = new Rational(- numr, deno)
+     
+     def - (that: Rational): Rational = this + -that
+     //end
+
      override def toString() = if (deno < 0) (-numr + "/"+ -deno) else (numr + "/"+ deno)
 }
