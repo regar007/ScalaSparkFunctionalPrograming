@@ -15,3 +15,8 @@
 > Fixed point : finding a fixed points of a function. example like squre root and factorial
 
 > Classes in scala and methods and exception handling
+
+## Week 4
+> Class Hierarchies using Rational Number operations
+
+> Polymorphism using binary tree and list operations
