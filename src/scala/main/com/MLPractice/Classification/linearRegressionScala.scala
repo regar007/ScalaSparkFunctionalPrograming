@@ -13,6 +13,7 @@ object linearR {
               .setMaster("local")
               
   val sc = new SparkContext(Conf)
+  
   // Load and parse the data
   val data = sc.textFile("C:/Users/ashokr/Documents/WORK/MachineLearnig/Milli'sSession/home_data.csv")
   val parsedData = data.map { line =>

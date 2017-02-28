@@ -23,17 +23,14 @@
 		<dependency>
 			<groupId>org.apache.spark</groupId>
 			<artifactId>spark-core_2.10</artifactId>
-			<version>1.6.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.spark</groupId>
 			<artifactId>spark-mllib_2.10</artifactId>
-			<version>1.6.1</version>
 		</dependency>
 		<dependency>
 			<groupId>se.uu.farmbio</groupId>
 			<artifactId>cp</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
@@ -144,4 +141,23 @@
 	</build>
   
   
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.apache.spark</groupId>
+				<artifactId>spark-core_2.10</artifactId>
+				<version>1.6.0</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.spark</groupId>
+				<artifactId>spark-mllib_2.10</artifactId>
+				<version>1.6.1</version>
+			</dependency>
+			<dependency>
+				<groupId>se.uu.farmbio</groupId>
+				<artifactId>cp</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 </project>

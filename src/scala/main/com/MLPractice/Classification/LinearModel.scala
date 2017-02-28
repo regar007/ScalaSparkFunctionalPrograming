@@ -10,7 +10,7 @@ import org.apache.spark.mllib.regression.LinearRegressionWithSGD
 object LinearModel {
   def main(args: Array[String]) {
     val Conf = new SparkConf()
-      .setAppName("Word Count")
+      .setAppName("LinearRegressionApp")
       .setMaster("local")
 
     val sc = new SparkContext(Conf)
